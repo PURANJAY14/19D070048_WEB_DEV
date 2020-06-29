@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<style>
+  .button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+.button2 {background-color: #008CBA;} /* Blue */
+.button3 {background-color: #f44336;} /* Red */ 
+.button4 {background-color: #e7e7e7; color: black;} /* Gray */ 
+.button5 {background-color: #555555;} /* Black */
+</style>
+<body style="background-color:powderblue;">
+
+<h1 style="color:blue;text-align:center;">ABOUT ME &#128512</h1>
+
+<center>
+<img src="me.jpeg" height="200" width="200">
+</center>
+
+<center><h2>PURANJAY DATTA</h2></center>
+
+<h3>HEY! welcome to my website .</h3>
+<h3>I am a electrical engineering (dual degree) UNDERGRAD at IIT BOMBAY.</h3>
+<h3> What you are perceiving is a culmination of 7 weeks of hardwork put in a course of webdev(learner's space).</h3>
+<h3> U might be wondering what Puranjay means.It's a sankrit word for Lord shiva .Unlike my name's meaning ie conqueror or winner of worlds,I strive for peace and simplicity.</h3>
+<h3>Please heed below to know more about me.</h3>
+
+
+
+<button class="button"; onclick="myFunction()">EDUCATION</button>
+<p id="edu"></p>
+<br>
+<button class="button button2"; onclick="myFunction2()">HOBBIES</button>
+<p id="hob"></p>
+<button class="button button3"; onclick="myFunction3()">AMBITION</button>
+<p id="amb"></p>
+
+
+
+
+<script>
+function myFunction() {
+ var divcontents=document.getElementById("edu").innerHTML ;
+ var a = window.open('', '', 'height=1000, width=1000');
+ a.document.write('<html><body style="background-color:lightgreen;">'); 
+            
+            
+            a.document.write('<center><h2>EDUCATION</h3></center>');
+            a.document.write('<h3> IIT BOMBAY ELECTRICAL ENGINEERING (DUAL DEGREE)</h2>');
+            
+            a.document.write('<h3> ICSE-97%</h3>');
+            
+            a.document.write('<h3> HSC-93.05%</h3>');
+            a.document.write('<br>');
+            a.document.write('<center><h2>MINOR ACHIEVEMENTS</h2></center>');
+            
+            a.document.write('<h3>KVPY AIR 132</h3>');
+            
+            a.document.write('<h3>HOMIBHABHA BALVAIDNYANIK EXAM BRONZE MEDALIST </h3>');
+            
+            a.document.write('<h3>JUNIOR MATHS OLYMPIAD-RAMANUJAM AWARDEE</h3>');
+            a.document.write('</body></html>')
+            a.document.close(); 
+             
+}
+
+function myFunction2() {
+  var divcontents=document.getElementById("hob").innerHTML ;
+  var a = window.open('', '', 'height=1000, width=1000');
+  a.document.write('<html><body style="background-color:#EE82EE;">'); 
+             
+             
+             a.document.write('<center><h1> INTERESTS</h1></center>');
+
+             a.document.write('<h2>ACADEMICS :</h2>');
+             a.document.write('<h3> PRETTY MUCH EVERYTHING EXCEPT MA105(TO BE PRECISE:)</h3>');
+             
+             a.document.write('<h3> DIGITAL ELECTRONICS </h3>');
+             
+             a.document.write('<h3>GRAPH THEORY & CP</h3>');
+             a.document.write('<br>');
+             a.document.write('<h2>ENTERTAINMENT :</h2>');
+             
+             a.document.write('<h3>NOT MUCH THOUGH BUT WATCHING ENGLISH THRILLER MOVIES<br>MAGIC SHOWS<br>CRICKET</h3>');
+             a.document.write('<br>');
+             a.document.write('<h2>SPORTS :</h2>');
+             a.document.write('<h3>CHESS AND CHESS AND CHESS </h3>');
+             
+             a.document.write('<h3>TABLE TENNIS AND BASKETBALL </h3>');
+             a.document.write('<br>');
+
+             a.document.write('</body></html>')
+             a.document.close(); 
+  }
+
+
+  function myFunction3() {
+    var divcontents=document.getElementById("amb").innerHTML ;
+    var a = window.open('', '', 'height=1000, width=1000');
+    a.document.write('<html><body style="background-color:#FED8B1;">'); 
+               
+               
+               a.document.write('<center><h1> AMBITION</h1> </center>');
+               
+               a.document.write('<h3> LIVE A SIMPLE LIFE');
+               
+               a.document.write('<h3> SHORT TERM GOAL :TO GET BETTER AT CHESS AND CP(MAY BE BECOMING A RED CODER ONE DAY-JUST A DREAM) </h3>');
+               
+    }
+</script>
+
+
+
+
+</body>
+</html>
+
+
+
+
+
+

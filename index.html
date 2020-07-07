@@ -1,35 +1,106 @@
 <!DOCTYPE html>
 <html>
 <head>
-
+  <link rel="stylesheet"   href="https://fonts.googleapis.com/css?family=Sofia">
+  <link rel="stylesheet"   href="mystyle.css">
+  <link rel="stylesheet"   href="https://fonts.googleapis.com/css?family=Pacifico">
 </head>
 <style>
-  .button {
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-  }
-.button2 {background-color: #008CBA;} /* Blue */
-.button3 {background-color: #f44336;} /* Red */ 
-.button4 {background-color: #e7e7e7; color: black;} /* Gray */ 
-.button5 {background-color: #555555;} /* Black */
-</style>
-<body style="background-color:powderblue;">
 
-<h1 style="color:blue;text-align:center;">ABOUT ME &#128512</h1>
+  
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+    }
+    
+    li {
+      float: left;
+    }
+    
+    li a, .dropbtn {
+      display: inline-block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    li a:hover, .dropdown:hover .dropbtn {
+      background-color: red;
+    }
+    
+    li.dropdown {
+      display: inline-block;
+    }
+    
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+    
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+    }
+    
+    .dropdown-content a:hover {background-color: #3907f1;}
+    
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+
+    .button {
+      background-color: #4CAF50; /* Green */
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      position: relative;
+      animation-name: example;
+      animation-duration: 4s;
+    }
+    
+    
+    @keyframes example {
+      0%   {background-color:red; left:0px; top:0px;}
+      25%  {background-color:yellow; left:200px; top:0px;}
+      50%  {background-color:blue; left:200px; top:200px;}
+      75%  {background-color:green; left:0px; top:200px;}
+      100% {background-color:red; left:0px; top:0px;}
+    }
+  
+</style>
+<body>
+
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#news">News</a></li>
+    
+  </ul>
+
+<h1><center>ABOUT ME &#128512</center></h1>
 
 <center>
 <img src="me.jpeg" height="200" width="200">
 </center>
 
-<center><h2>PURANJAY DATTA</h2></center>
+<center><h2>PURANJAY    DATTA</h2></center>
 
 <h3>HEY! welcome to my website .</h3>
 <h3>I am a electrical engineering (dual degree) UNDERGRAD at IIT BOMBAY.</h3>
@@ -39,7 +110,7 @@
 
 
 
-<button class="button"; onclick="myFunction()">EDUCATION</button>
+<div><button class="button"; onclick="myFunction()">EDUCATION</button></div>
 <p id="edu"></p>
 <br>
 <button class="button button2"; onclick="myFunction2()">HOBBIES</button>
@@ -53,7 +124,7 @@
 <script>
 function myFunction() {
  var divcontents=document.getElementById("edu").innerHTML ;
- var a = window.open('', '', 'height=1000, width=1000');
+ var a = window.open('/education', '', 'height=1000, width=1000');
  a.document.write('<html><body style="background-color:lightgreen;">'); 
             
             

@@ -1,394 +1,359 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>Puranjay Datta</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <meta name="author" content="Puranjay Datta">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<head>
+    
+   
+    <link rel="stylesheet" type="text/css" href="stylesheet.css" id="theme-style">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌐</text></svg>">
+  </head>
   
 
-  <title>Bootstrap Example</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-  <script src="https://use.fontawesome.com/30185c2d99.js"></script>
+  <body>
 
+    <!-- Rounded switch -->
 
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-
-  <link rel="stylesheet" href="style.css">
-
-  <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Grenze Gotisch" rel="stylesheet">
-
-</head>
-
-<body>
-
-  <nav>
-    <div>
-      <h5>Puranjay Datta</h5>
-    </div>
-    <ul class="nav-links">
-      <li><a href="#Home">Home</a></li>
-      <li><a href="#Education">Education</a></li>
-      <li><a href="#Interests">Interests</a></li>	
-      <li><a href="#Time">Time Table</a></li>
-      <li><a href="#form">Contact-form</a></li>
-      <li><a href="#Contact Me">Contact Me</a></li>
-      
-    </ul>
-    
-  </nav>
-
-
-  <div class="main" >
-    <div class="jumbotron" >
-      <img src="foot.jpg" alt="Inspirational Image" style="width:100%" class="img-responsive">
-    </div>
-  </div>
-
-
-
-  
-
-
-
-  <div class="sidenav" ; class="intro">
-    <h2>
-      <center>Puranjay Datta<br>19D070048</center>
-    </h2>
-    <a href="#Home">
-      <center>Home</center>
-    </a>
-    <a href="#Education">
-      <center>Education</center>
-    </a>
-    <a href="#Interests">
-      <center>Interests</center>
-    </a>
-    
-    <a href="#Time">
-      <center>Time Table</center>
-    </a>
-
-    <a href="#form">
-      <center>Contact-Form</center>
-    </a>
-
-    <a href="#Contact Me">
-      <center>Contact Me<br><br><br></center>
-    </a>
-
-    <div class="container">
-
-      <img src="me.jpeg" class="img-circle">
-    </div>
-  </div>
-
-
-
-
-  <div class="container"  id="Home">
-    <h1 class="intro1"><u>About Me</u><br></h1>
-    <p class="intro3">HEY! welcome to my website .
-      I am a electrical engineering (dual degree) UNDERGRAD at IIT BOMBAY.
-      What you are perceiving is a culmination of 7 weeks of hardwork put in a course of webdev(learner's space).
-      U might be wondering what Puranjay means.It's a sankrit word for Lord shiva .Unlike my name's meaning ie conqueror
-      or winner of worlds,I strive for peace and simplicity.
-      Please heed below to know more about me.</p>
-  </div>
-
-  <hr class="section">
-
-  <div class="container"  id="Education">
-    <h1 class="intro1"><u>Education</u><br></h1>
-
-
-    <p class="intro4">I completed my education till 3rd standard from DAV PUBLIC SCHOOL.
-      I continued my studies in SMT SULOCHANADEVI SINGHANIA SCHOOL and completed my secondary education.
-      I then joined Vidyalankar Institute where I prepared for JEE as well as completed my higher secondary education.
-      I secured 97.00 % in ICSE and 93.05 % in HSC board examination.
-      I obtained a AIR 300 in IIT JEE MAIN and AIR 460 in IIT JEE ADVANCED.
-      I am currently a Second Year Undergraduate at the Department of
-      <a href="https://www.ee.iitb.ac.in/web">Electrical Engineering Dual Degree, IIT Bombay.</a> </p>
-
-
-    <details ontoggle="" class="intro">
-      <summary class="intro2"><u>Minor Achievements</u></summary>
-      <p class="intro2"> KVPY AIR 132 <br>
-        HOMIBHABHA BALVAIDNYANIK EXAM Bronze Medalist<br>
-        JUNIOR MATHS OLYMPIAD-RAMANUJAM AWARDEE</p>
-
-    </details>
-  </div>
-  <hr class="section">
-<div id="Interests">
-  <center>
-    <h1 class="intro1"><u>Interests</u></h1>
-  </center>
+<div class="navbar">
+  <a class="nav-link active" href="#home">Home</a>
+  <a class="nav-link" href="#Research">Research</a>
+  <a class="nav-link" href="#Projects">Projects</a>
+  <a class="nav-link" href="data/Curriculum_Vitae.pdf" target="_blank">CV</a>
+  <a class="nav-link" href="#contact">Contact</a>
+  <label class="switch" >
+    <input type="checkbox">
+    <span class="slider round" id="theme-changer"></span>
+  </label>
 </div>
-  <div id="demo" class="carousel slide" data-ride="carousel"  >
-
-    <!-- Indicators -->
-    <ul class="carousel-indicators">
-      <li data-target="#demo" data-slide-to="0" class="active"></li>
-      <li data-target="#demo" data-slide-to="1"></li>
-      <li data-target="#demo" data-slide-to="2"></li>
-      <li data-target="#demo" data-slide-to="3"></li>
-    </ul>
-
-    <!-- The slideshow -->
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <center>
-          <div class="card" >
-
-            <img class="card-img-top" src="chess.jpg" alt="Card image" >
-
-            <div class="card-body">
-              <h4 class="card-title">SPORTS</h4>
-              <p class="card-text" ; class="intro">I am chess enthusiast.During the time of pandemic and lockdown I
-                developed a serious passion for chess.I got so hooked to it that I read theories about opening and
-                endgame which helped me develop my game.If you feel tha same as I do about this game then feel free to
-                challenge me anytime on chess.com(link given below).</p>
 
 
-
-            </div>
-          </div>
-        </center>
-      </div>
-
-
-      <div class="carousel-item">
-        <center>
-          <div class="card" >
-
-            <img class="card-img-top" src="tt.jpg" alt="Card image" >
+<script>
+  $(document).ready(function() {
+    $('.nav-link').click(function() {
+      $('.nav-link').removeClass('active');
+      $(this).addClass('active');
+    });
+  });
+</script>
 
 
 
 
-            <div class="card-body">
-              <h4 class="card-title">SPORTS</h4>
-              <p class="card-text" class="intro">I am a NBA fanatic.Though I am not a morning bird but for the nba
-                playoffs I used to wake up early morning.I am also very interested in table tennis .I successfully
-                completed NSO programme at IITB.Last but not the least, how come i cannot be in love with cricket.Like
-                every Indian i love to follow cricket.I respect MS dhoni and Virat kohli but I really admire steven
-                smith for his unusual brand of cricket.(Don't hate me for this)</p>
-
-
-
-            </div>
-
-        </center>
-      </div>
-
-
-      <div class="carousel-item">
-        <center>
-          <div class="card" >
-
-            <img class="card-img-top" src="icpc.jpg" alt="Card image">
-
-            <div class="card-body">
-              <h4 class="card-title">ACADEMICS</h4>
-              <p class="card-text" ;class="intro">I am very much interested in Competitive programming.Practicing CP
-                improves my problem solving skills.I love to learn about different algorithms and data structures to
-                deal
-                with different types of complicated problems.In the beginning I also was intimidated by the nerve
-                racking algorithms but
-                with
-                time I understood their essence.</p>
-
-
-
-            </div>
-          </div>
-        </center>
-      </div>
-      <div class="carousel-item">
-        <center>
-          <div class="card" >
-
-            <img class="card-img-top" src="cinema.jpg" alt="Card image" >
-
-            <div class="card-body">
-              <h4 class="card-title">ENTERTAINMENT</h4>
-              <p class="card-text" ; class="intro">Like every normal person, I too love movies.My taste lies in
-                english
-                thriller movies.
-                "Interstellar is one of my favourite movies".
-                I was fascinated by the concept of time and black hole which still startles me.
-                I am MARVEL fan too.Avengers ENDGAME has been my personal favourite in the whole saga.
-                Apart from these I love to watch magic shows on AGT and other platforms.
-              </p>
-
-
-
-
-            </div>
-          </div>
-        </center>
-      </div>
-    </div>
-
-
-
-
-
-
-
-
-  </div>
-  <br><br><br>
-  <hr class="section">
-
-  <div class="table-responsive" id="Time">
-    <h1 class="intro1">
-      <center><u>Time Table</u></center>
-    </h1>
+      <table style="width:70%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;" id="home"><tbody>
+        <tr style="padding:0px">
+          <td style="padding:2.5%;width:43%;vertical-align:middle">
+            <p class="name" style="text-align: center;">
+              Puranjay Datta
+            </p>
+            <p>
+              Hi! I'm a fifth-year undergraduate student pursuing a dual degree program in Electrical Engineering (M.Tech + B.Tech) at IIT Bombay, with a minor in Computer Science. My academic and research interests lie in the fields of AI and intelligent agents, stochastic control, online learning, and game theory.
+            </p>
+            <p> 
+              Since the summer of 2023, I have been working with <a href="https://www.ee.iitb.ac.in/web/people/sharayu-moharir/">Professor Sharayu Moharir</a> on research related to inference using hedge methods. Additionally, I had the opportunity to be a <a href="https://www.mitacs.ca/en/programs/globalink/globalink-research-internship">MITACS Globalink</a> Research Intern at the University of Calgary under the supervision of <a href="https://profiles.ucalgary.ca/hatem-abou-zeid">Hatem Abou Zeid</a>. During this internship, I delved into the domain of transfer learning using IsaacGym, gaining valuable experience in this area.
+            </p>
+            <p>
+              Furthermore, I am currently collaborating with <a href="https://www.cse.iitb.ac.in/~shivaram/"> Professor Shivaram Kalyanakrishnan</a> to enhance and optimize his <a href="https://rbc.jhuapl.edu/"> NeurIPS Reconnaissance Blind Chess</a> Agent bot, with the aim of preparing it for future competitions. I also had the privilege of working alongside <a href="https://www.cse.iitb.ac.in/~swaprava/group.html">Professor Swaprava Nath</a> on the Envy-Free Cake Cutting problem as part of an advanced game theory course, an experience that I found immensely enjoyable and intellectually stimulating.
+            </p>
+            <p>
+              Beyond my academic pursuits, I had the privilege of serving as a Teaching Assistant for a national-level <a href="https://nptel.ac.in/">NPTEL</a> Digital Signal Processing course, where I worked alongside <a href="https://www.ee.iitb.ac.in/web/people/vikram-m-gadre/"> Professor Vikram Gadre</a> to ensure the smooth delivery of the course.
+              In my leisure time, I am an avid sports enthusiast and follow a wide range of sports, including cricket, chess, Formula 1, table tennis, and basketball. I also enjoy actively participating in some of these sports during my spare time.
+            </p>
+            
+          </td>
+          <td style="padding:2.5%;width:40%;max-width:40%">
+            <a href="images/me.jpeg"><img style="width:100%;max-width:100%" alt="profile photo" src="images/me.jpeg" class="hoverZoomLink"></a>
+          </td>
+        </tr>
+      </table>
+    
+    <h2 id="contact">Get in touch !</h2>
     <br>
-    <table class="table">
-      <tr>
-        <th class=corner style="border: 0">Day | Time</th>
-        <th class=top>8:30-9:25</th>
-        <th class=top>9:30-10:25</th>
-        <th colspan=2 class=top>10:35-11:30</th>
-        <th class=top>11:35-12:30</th>
-        <th class=break rowspan=6>Lunch</th>
-        <th colspan=2 class=top>14:00-15:35</th>
-        <th colspan=2 class=top>15:30-16:55</th>
-        <th colspan=2 class="top">17:30-19:00</th>
-      </tr>
-      <tr>
-        <th class=lhs>Monday</th>
-        <td title="Basics of Electricity and Magnetism&#010;Prof: Raghava Varma" colspan="1">PH108</td>
-        <td
-          title="Linear Algebra&#010;Prof: Jugal K Verma&#010;Ordinary Differential Equations&#010;Prof: Preeti Raman">
-          MA106 / MA108</td>
-        <td title="N/A" colspan=2></td>
-        <td title="Power Engineering I&#010;Prof: Shreevardhan A. Soman" colspan="1">EE114</td>
-        <td title="Chemistry Lab&#010;Prof: (Multiple)" colspan=4>CH117 Lab</td>
-        <td title="N/A" colspan=4></td>
-      </tr>
-      <tr>
-        <th class=lhs>Tuesday</th>
-        <td title="Power Engineering I&#010;Prof: Shreevardhan A. Soman">EE114</td>
-        <td title="N/A"></td>
-        <td title="Linear Algebra&#010;Prof: Jugal K Verma&#010;Ordinary Differential Equations&#010;Prof: Preeti Raman"
-          colspan="2">MA106 / MA108</td>
-        <td title="N/A"></td>
-        <td title="N/A" colspan=4></td>
-
-        <td title="NSO Table Tennis" colspan=2>NSO</td>
-      </tr>
-      <tr>
-        <th class=lhs>Wednesday</th>
-        <td title="N/A"></td>
-        <td
-          title="Introduction to Biology&#010;Prof: Sanjeeva Srivastava&#010;Prof: Rahul Purwar&#010;Prof: Ambarish Kunwar&#010;Prof: Soumyo Mukherji"
-          colspan=2>BB101</td>
-        <td title="Engineering Drawing&#010;Prof: Sandeep Saha" colspan=2>ME119</td>
-        <td title="Maths Tutorial&#010;TA: Rucha Desai&#010;TA: Arjun Yennemadi" colspan=2>MA106 / MA108</td>
-        <td title="Physics Tutorial&#010;TA: Lalit Saini" colspan=2>PH108</td>
-        <td title="Biology Tutoial&#010;TA: Riya" colspan=2>BB101</td>
-      </tr>
-      <tr>
-        <th class=lhs>Thursday</th>
-        <td title="N/A"></td>
-        <td title="Power Engineering I&#010;Prof: Shreevardhan A. Soman">EE114</td>
-        <td title="Basics of Electricity and Magnetism&#010;Prof: Raghava Varma" colspan=2>PH108</td>
-        <td
-          title="Linear Algebra&#010;Prof: Jugal K Verma&#010;Ordinary Differential Equations&#010;Prof: Preeti Raman">
-          MA106 / MA108</td>
-
-        <td title="Engineering Drawing&#010;Prof: Sandeep Saha" colspan="4">ME119 Lab</td>
-        <td title="NSO Table Tennis" colspan=2>NSO</td>
-      </tr>
-      <tr>
-        <th class=lhs>Friday</th>
-        <td title="N/A"></td>
-        <td
-          title="Introduction to Biology&#010;Prof: Sanjeeva Srivastava&#010;Prof: Rahul Purwar&#010;Prof: Ambarish Kunwar&#010;Prof: Soumyo Mukherji"
-          colspan=2>BB101</td>
-        <td title="N/A" colspan=2></td>
-        <td title="N/A" colspan=6></td>
-      </tr>
-    </table>
-  </div>
-
-  <div class="container">
-    <p class="intro">If you are intrigued and fascinated by Graphs then you can take a peek into my Summer Of Science
-      Report of Graph Theory <a href="sos.pdf">here</a>.</p>
-  </div>
-
-
-
-
-
-  <div class="container-fluid-contact-form" id="form">
-    
-  <div class="container-fluid-contact">
-    <h1><u>Feedback</u></h1>
-    <form action="https://formspree.io/xeqrvjek" method="POST">
-      <label>
-          Your email:
-          <br>
-          <input type="text" name="_replyto" size="100" class="form-rounded">
-        </label>
-        <br><br>
-        <label>
-         
-          Your message:
-          <br>
-          <textarea name="message" rows="4" cols="100" class="form-rounded"></textarea>
-        </label>
-  
-
-        <br>
-        <button type="submit" class="sub">Send</button>
+      <div class="social-icons">
+       
+        <a href="mailto:puranjaydatta@gmail.com" target="_blank" class="icon">
+            <i class="fas fa-envelope"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/puranjay-datta-a238a1239/" target="_blank" class="icon">
+            <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://github.com/PURANJAY14/" target="_blank" class="icon">
+            <i class="fab fa-github"></i>
+        </a>
+        <a href="data/Curriculum_Vitae.pdf" target="_blank" class="icon cv-icon">
+          <i class="far fa-file-pdf"></i>
+      </a>
       
-    </form>
-  </div>
-  </div>
-
-
- 
-
-  
-  <footer class="page-footer font-small" id="Contact Me">
-    <div class="container-fluid start-pad"><div class="row subtitle">
-        <div class="col-12">
-          <h1> Contact Me </h1>
-        </div>
-      </div>
-      <div class="row text-center">
-        <div class="col-12 icons">
-          <a href="https://www.facebook.com/puranjay.datta/" target="_blank"><img class="img-thumbnail" src="fb.jpg"
-              width="60" height="60"></a>
-          <a href="mailto:puranjaydatta@gmail.com" target="_blank"><img class="img-thumbnail" src="gmail.jpg" width="60"
-              height="60"></a>
-          <a href="https://github.com/PURANJAY14" target="_blank"><img class="img-thumbnail" src="git.jpg" width="60"
-              height="60"></a>
-          <a href="https://www.chess.com/member/joy123456798" target="_blank"><img class="img-thumbnail"
-              src="chlogo.jpeg" width="60" height="60"></a>
-        </div>
-      </div>
     </div>
+    <br>
+    <h3>
+      I am always happy to chat and assist you with any questions or concerns you may have. Feel free to reach out to me and I will get back to you as soon as possible.
+    </h3>
+    <br>
+    <br>
+      
 
-    <div class="footer-copyright text-center py-3">
-      Puranjay Datta &middot 2020
-    </div>
+<h2 id="Research">Research Experience</h2>
 
+<div class="projects-container">
+<div class="project">
+  <tr>
+    <td style="padding:20px;width:50%;vertical-align:middle">
+      <div class="one">
+        <img src='images/ti.png' width=100% height=100%>
+      </div>
+      <td style="padding:20px;width:50%;vertical-align:top">
+        <br>
+        <span class="papertitle">Predistortion in Power Amplifier</span>
+      
+    <br>
     
-  </footer>
+    
+      <p></p>
+      <p class="research-desc">
+        Experimented with Iterative Learning Control, Vector Switched Models on industrial amplifiers for various bandwidths and compared based on ACLR, SNR metrics.</p></tr>
+  
+  <tr>
+</div>
+
+<div class="project">
+  <tr>
+    <td style="padding:20px;width:50%;vertical-align:middle">
+      <div class="one">
+        <img src='images/Mitacs.png' width=100% height=100%>
+      </div>
+    </td>
+    <td style="padding:20px;width:50%;vertical-align:top">
+      <br>
+      <span class="papertitle">Transfer learning in NVIDIA isaacgym</span>
+    
+  <br>
+  
+   
+    <p class="research-desc">
+      Analyzed the Adversarial Motion Priors in training humanoid agents using motion datasets, investigating transfer learning to another task using one-shot transfer learning </p>
+  </td>
+  </tr>
+</div>
+
+<div class="project">
+  <tr>
+    <td style="padding:20px;width:50%;vertical-align:middle">
+      <div class="one">
+        <img src='images/rbcchess.png' width=100% height=100%>
+      </div>
+    </td>
+    <td style="padding:20px;width:50%;vertical-align:top">
+        <br>
+        <span class="papertitle">Neurips Reconnaissance Blind Chess Agent</span>
+      
+    <br>
+    
+      <a href="Projects/RBC_CHESS/CS748.pdf">Presentation</a>
+      /
+      <a href="Projects/RBC_CHESS/Team4 RBC (2).pdf">Report</a>
+      <p></p>
+      <p class="research-desc">
+        Replay buffer development, opponent modeling, and a scoring system adaptation were employed to assess and enhance the Fianchetto bot's(modelled as a POMDP) performance in chess, focusing on threat detection and strategic move selection. </p>
+    </td>
+  </tr>
+</div>
+
+<div class="project">
+  <tr>
+    <td style="padding:20px;width:50%;vertical-align:middle">
+      <div class="one">
+        <img src='images/envyfreecakecutting.png' width=100% height=100%>
+      </div>
+    </td>
+    <td style="padding:20px;width:50%;vertical-align:top">
+      <br>
+      <span class="papertitle">Networked Fairness in Cake Cutting</span>
+    
+  <br>
+  
+    <a href="Projects/Cake_cutting/6002.pdf">Presentation</a>
+    /
+    <a href="Projects/Cake_cutting/CS6002_Report_AAMAS_2023_Format.pdf">Report</a>
+    <p></p>
+    <p class="research-desc"> 
+      Pioneered a novel approach to traditional cake-cutting with networked agents for efficient envy-free allocations using moving knife procedures Austin Cut and Brams Taylor Zwicker procedure</p>
+  </td>
+  </tr>
+</div>
+
+<div class="project">
+  <tr>
+    <td style="padding:20px;width:50%;vertical-align:middle">
+      <div class="one">
+        <img src='images/Hionline.png' width=100% height=100%>
+      </div>
+    </td>
+    <td style="padding:20px;width:50%;vertical-align:top">
+      <br>
+      <span class="papertitle">Inference using Online Learning</span>
+    
+  <br>
+  
+    <a href="Projects/ddp/ddp_puranjay.pdf">Presentation</a>
+    /
+    <a href="Projects/ddp/ddp_puranjay.pdf">Report</a>
+    <p></p>
+    <p class="research-desc">
+      Hierarchichal inference using modified hedge with a non convex lipschitz loss in a 2D continuous experts setting utilizing insights from Online Recursive Weighting algorithm. </p>
+  </td>
+  </tr>
+</div>
+</div>
 
 
 
-</body>
 
+
+
+<h2 id="Projects">Projects</h2>
+<div class="projects-container">
+<div class="projectnew">
+  <tr>
+    <td style="padding:20px;width:10%;vertical-align:middle">
+      <div class="one">
+        <img src='images/mab.png' width=100% height=100%>
+      </div>
+    </td>
+    <td style="padding:20px;width:70%;vertical-align:top">
+      <br>
+      <span class="papertitle">Multiarm Bandits</span>
+    
+  <br>
+  
+    <a href="Projects/BANDITS/RnD (1).pdf">Presentation 1</a>
+    /
+    <a href="Projects/BANDITS/RnD.pdf">Presentation 2</a>
+  
+    <p class="research-desc">
+      Involved multi-armed bandit best arm identification, implementing successive elimination and median elimination algorithms, adapting confidence bounds for grouped bandits with constraints, and analyzing the stopping time complexity of a D tracking variant against hardness measures with a focus on helpful arm characterization. </p>
+  </td>
+  </tr>
+</div>
+
+<div class="projectnew">
+  <tr>
+    <td style="padding:20px;width:100%;vertical-align:middle">
+      <div class="one">
+        <img src='images/snorkel.png' width=100% height=100%>
+      </div>
+    </td>
+    <td style="padding:20px;width:50%;vertical-align:top">
+      <br>
+      <span class="papertitle">Generative model for Weak Supervision</span>
+    
+  <br>
+  
+    <a href="Projects/726/726.pdf">Report</a>
+    
+  
+    <p class="research-desc">
+      leveraged the Snorkel framework to train a generative model for learning relationships among multiple labeling functions, which, when combined with discriminative models like logistic regression and recurrent neural networks, significantly enhanced accuracy in tasks like salary prediction and Twitter sentiment analysis.</p>
+       </td>
+  </tr>
+</div>
+
+
+
+<div class="projectnew">
+  <tr>
+    <td style="padding:20px;width:100%;vertical-align:middle">
+      <div class="one">
+        <img src='images/wavelets.png' width=100% height=100%>
+      </div>
+    </td>
+    <td style="padding:20px;width:100%;vertical-align:top">
+      <br>
+      <span class="papertitle">Wavelets in Convolutional Neural Network</span>
+    
+  <br>
+  
+    <a href="Projects/wavelets/wavletcnn.pdf">Presentation</a>
+    /
+    <a href="Projects/wavelets/wavelet.pdf">Report</a>
+    <p class="research-desc">
+      Developed a novel sparse neural network combining LSTM and wavelet decomposition for predicting atmospheric profile by implementing Level-2 decomposition along with LSTM and separate k-band, v-band training to improve the accuracy. </p>
+  </td>
+  </tr>
+</div>
+
+<div class="projectnew">
+  <tr>
+    <td style="padding:20px;width:50%;vertical-align:middle">
+      <div class="one">
+        <img src='images/shadow.png' width=100% height=100%>
+      </div>
+      <td style="padding:20px;width:50%;vertical-align:top">
+        <br>
+        <span class="papertitle">Shadow Removal and Detection</span>
+      
+    <br>
+      <a href="Projects/Shadow/shadow.pdf">Report</a>
+      <p></p>
+      <p class="research-desc">
+        Implemented the water-filling diffusion algorithm and k-means to equalize the global and local shadow background and compared with a Stacked CGAN on an Image shadow triplets (ISTD) dataset with annotations in the form of the shadow mask. </p>
+    </td>
+  </tr>
+</div>
+
+<div class="projectnew">
+  <tr>
+    <td style="padding:20px;width:50%;vertical-align:middle">
+      <div class="one">
+        <img src='images/edl.png' width=100% height=100%>
+      </div>
+    </td>
+    <td style="padding:20px;width:50%;vertical-align:top">
+      <br>
+      <span class="papertitle">Temperature Control using Pulse Width Modulator</span>
+    
+  <br>
+  
+    <a href="Projects/EDL/edl.pdf">Report</a>
+   
+    <p></p>
+    <p class="research-desc">
+      Fabricated a functional prototype with temperature control, integrating a PCB layout in Eagle and creating a dynamic temperature display using an Arduino-based NTC thermistor with feedback-controlled heating.
+    </p></td>
+  </tr>
+</div>
+
+<div class="projectnew">
+  <tr>
+    <td style="padding:20px;width:50%;vertical-align:middle">
+      <div class="one">
+        <img src='images/cv.png' width=100% height=100%>
+      </div>
+      <td style="padding:20px;width:50%;vertical-align:top">
+        <br>
+        <span class="papertitle">Optical Flow Computer Vision</span>
+      
+    <br>
+    
+      <a href="Projects/Computervision/EE350ppt.pdf">Presentation</a>
+      /
+      <a href="Projects/Computervision/EE350_ComputerVision.pdf">Report</a>
+      <p></p>
+      <p class="research-desc">
+      Tested Lucas Kanade Optical flow on various test cases showcasing its strength and weakness</p>  </td>
+  </tr>
+</div>
+</div>
+<p>page design source: <a href="https://jonbarron.info/">Jon Barron</a> , <a href="https://www.freepik.com/free-photo/vivid-blurred-colorful-wallpaper-background_17729304.htm#page=2&query=light%20blue%20background&position=3&from_view=keyword&track=ais">Image by user3802032 on Freepik</a> </p>
+
+         
+    <script src="script.js"></script>
+
+  </body>
 </html>
